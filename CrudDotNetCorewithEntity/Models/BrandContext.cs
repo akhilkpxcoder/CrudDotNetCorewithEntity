@@ -9,5 +9,6 @@ namespace CrudDotNetCorewithEntity.Models
         {
             
         }
+        public DbSet<Brand> Brands { get; set; }
     }
 }
