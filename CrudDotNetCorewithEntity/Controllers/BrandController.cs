@@ -10,9 +10,9 @@ namespace CrudDotNetCorewithEntity.Controllers
     [ApiController]
     public class BrandController : ControllerBase
     {
-        private readonly BrandContext  _brandContext;
+        private readonly DummyContext  _brandContext;
 
-        public BrandController(BrandContext brandContext)
+        public BrandController(DummyContext brandContext)
         {
             _brandContext = brandContext;
         }
